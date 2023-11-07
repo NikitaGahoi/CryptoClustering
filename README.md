@@ -41,7 +41,15 @@ In the initial phase of the project, the cryptocurrency market data is loaded an
   
   ![image](https://github.com/NikitaGahoi/CryptoClustering/assets/136101293/13831b3c-99f8-4327-880b-5fe60257194b)
 
-- A scatter plot is generated to visualize the clustered data, with the x-axis representing the 24-hour price change percentage and the y-axis representing the 7-day price change percentage. Cryptocurrency labels are added to the plot to identify each data point, and the impact of using fewer features for clustering is analyzed.
+ - A scatter plot is generated to visualize the clustered data, with the x-axis representing the "PC1" and the y-axis representing the "PC2"  Cryptocurrency labels are added to the plot to identify each data point, and the impact of using fewer features for clustering is analyzed.
+
+![image](https://github.com/NikitaGahoi/CryptoClustering/assets/136101293/dbe01b52-fca9-4bf9-a782-d7bae8cd3d11)
+
+- **Visualize and Compare the Results:** A composite graph was prepared to plot the contrast in the Elbow curves and the K-means clusters and PCA clusters. The elbow graphs completely overlaped, whereas the  K-means clusters and PCA clusters showed some variation:
+  
+ ![image](https://github.com/NikitaGahoi/CryptoClustering/assets/136101293/93038fa5-3130-441d-9425-19ce59248cce)
+  
+
 
 
 
