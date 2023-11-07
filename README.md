@@ -48,6 +48,8 @@ In the initial phase of the project, the cryptocurrency market data is loaded an
 - **Visualize and Compare the Results:** A composite graph was prepared to plot the contrast in the Elbow curves and the K-means clusters and PCA clusters. The elbow graphs completely overlaped, whereas the  K-means clusters and PCA clusters showed some variation:
   
  ![image](https://github.com/NikitaGahoi/CryptoClustering/assets/136101293/93038fa5-3130-441d-9425-19ce59248cce)
+
+ The impact of using PCA data resulted in tighter clusters, it also resulted in more entries within cluster 0 and cluster 1 than the original analysis did.
   
 
 
