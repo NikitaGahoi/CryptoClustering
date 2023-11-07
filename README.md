@@ -24,12 +24,19 @@ In the initial phase of the project, the cryptocurrency market data is loaded an
   
 
 - **Optimize Clusters with Principal Component Analysis:** To enhance the clustering process and reduce the dimensionality of the data, Principal Component Analysis (PCA) is applied. PCA allows for the creation of primary clusters that capture essential information from the original dataset. The explained variance of the PCA components is examined to understand the contribution of each principal component to the data.
-  ![image](https://github.com/NikitaGahoi/CryptoClustering/assets/136101293/00bb0d09-62b5-4436-ac17-610d8bcd025a)
-
+- 
   **The variance explained by three principal components is approximately 89.49%**
 
   Subsequently, create a fresh DataFrame incorporating the PCA-transformed data. This new DataFrame is structured with the "coin_id" index inherited from the original dataset. This arrangement ensures seamless integration with the existing data, maintaining the connection between cryptocurrencies and their corresponding PCA-derived features. By incorporating PCA and retaining essential information while reducing dimensionality, this stage enhances the accuracy and interpretability of cryptocurrency clustering, ultimately leading to more informed decision-making.
 
 ![image](https://github.com/NikitaGahoi/CryptoClustering/assets/136101293/a50040c6-1fcb-48ff-a360-4c484bad8b14)
+
+- **Finding Optimal Number of Clusters Using the PCA Data:** Similar to the previous step, I employed the elbow method, but this time on the PCA data. A range of k values is considered, and the inertia values are computed. The resulting elbow curve helps identify the best k value when using the PCA data, and any differences from the best k value found with the original data are noted.
+- 
+  ![image](https://github.com/NikitaGahoi/CryptoClustering/assets/136101293/8134d77c-a675-4976-ae9a-2ed850aeb097)
+
+   **According to the elbow curve the best value for 'k' is 4**
+
+
 
 
