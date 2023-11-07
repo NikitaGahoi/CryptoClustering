@@ -32,10 +32,20 @@ In the initial phase of the project, the cryptocurrency market data is loaded an
 ![image](https://github.com/NikitaGahoi/CryptoClustering/assets/136101293/a50040c6-1fcb-48ff-a360-4c484bad8b14)
 
 - **Finding Optimal Number of Clusters Using the PCA Data:** Similar to the previous step, I employed the elbow method, but this time on the PCA data. A range of k values is considered, and the inertia values are computed. The resulting elbow curve helps identify the best k value when using the PCA data, and any differences from the best k value found with the original data are noted.
-- 
+
   ![image](https://github.com/NikitaGahoi/CryptoClustering/assets/136101293/8134d77c-a675-4976-ae9a-2ed850aeb097)
 
    **According to the elbow curve the best value for 'k' is 4**
+
+- **Clustering PCA Data using optimal value of k:** With the optimal k value determined from the PCA data, the K-Means clustering algorithm is applied to group cryptocurrencies. The PCA-transformed data is used for this clustering process. A copy of the PCA data is created to store the predicted clusters.
+  
+  ![image](https://github.com/NikitaGahoi/CryptoClustering/assets/136101293/13831b3c-99f8-4327-880b-5fe60257194b)
+
+- A scatter plot is generated to visualize the clustered data, with the x-axis representing the 24-hour price change percentage and the y-axis representing the 7-day price change percentage. Cryptocurrency labels are added to the plot to identify each data point, and the impact of using fewer features for clustering is analyzed.
+
+
+
+  
 
 
 
